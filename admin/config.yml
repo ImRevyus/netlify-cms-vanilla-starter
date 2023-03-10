@@ -8,8 +8,8 @@ media_folder: "media"
 public_folder: "media"
 publish_mode: editorial_workflow
 collections:
-  - label: "About"
-    name: "about"
+  - label: "Index"
+    name: "Index"
     files:
     - label: "Text"
       name: "info"
