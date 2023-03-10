@@ -2,7 +2,8 @@ backend:
   name: git-gateway
   branch: main
 
-logo_url: 
+logo_url: https://resplendent-kulfi-0bf2e9.netlify.app/logo-no-background.svg
+
 media_folder: "media"
 public_folder: "media"
 publish_mode: editorial_workflow
