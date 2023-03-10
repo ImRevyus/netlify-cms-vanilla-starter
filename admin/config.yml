@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: master
 
 logo_url: https://resplendent-kulfi-0bf2e9.netlify.app/logo-no-background.svg
 
