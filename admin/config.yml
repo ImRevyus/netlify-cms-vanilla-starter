@@ -11,9 +11,10 @@ collections:
   - label: "About"
     name: "about"
     files:
-    - label: "Ab1out"
+    - label: "Text"
       name: "info"
       format: 'json'
       file: "content/about.json"
       fields:
         - {label: "Message", name: message, widget: string}
+        - { label: 'Body', name: 'body', widget: 'markdown' }
