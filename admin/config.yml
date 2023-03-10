@@ -16,4 +16,4 @@ collections:
       format: 'json'
       file: "content/index.json"
       fields:
-        - {label: "test", name: test, widget: 'markdown'}
+        - {label: "test", name: message, widget: 'markdown'}
