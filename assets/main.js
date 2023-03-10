@@ -6,7 +6,7 @@ function render(container, message, body) {
 
   const app = document.getElementById('app')
 
-  let about = await fetch('content/about.json')
+  let about = await fetch('content/index.json')
   let { message, body } = await about.json()
 
   render(app, message, body)
