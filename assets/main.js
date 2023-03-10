@@ -1,5 +1,5 @@
-function render (container, message) {
-  container.innerHTML = `<p>${message}</p>`
+function render(container, message, body) {
+  container.innerHTML = `<h2>${message}</h2><p>${body}</p>`
 }
 
 (async function () {
@@ -7,9 +7,9 @@ function render (container, message) {
   const app = document.getElementById('app')
 
   let about = await fetch('content/about.json')
-  let { message } = await about.json()
+  let { message, body } = await about.json()
 
-  render(app, message)
+  render(app, message, body)
 
   const nav = document.createElement('nav')
 
