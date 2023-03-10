@@ -1,3 +1,11 @@
 {
-  "message": "Well its working !"
+  "message": "Well its working !",
+  "locations": [
+    {
+      "name": "Reda",
+      "address": "Morocco Rabat Sala al jadida"
+    }
+  ],
+  "title": "Hello world",
+  "intro": "H﻿ey everyone its me Reda"
 }
