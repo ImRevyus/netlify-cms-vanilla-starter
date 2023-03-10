@@ -1,15 +1,15 @@
-function render(container, message, body) {
-  container.innerHTML = `<h2>${message}</h2><p>${body}</p>`
+function render (container, message) {
+  container.innerHTML = `<p>${message}</p>`
 }
 
 (async function () {
 
   const app = document.getElementById('app')
 
-  let about = await fetch('content/index.json')
-  let { message, body } = await about.json()
+  let about = await fetch('content/about.json')
+  let { message } = await about.json()
 
-  render(app, message, body)
+  render(app, message)
 
   const nav = document.createElement('nav')
 
