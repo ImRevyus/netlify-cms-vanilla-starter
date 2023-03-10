@@ -16,4 +16,11 @@ collections:
       format: 'json'
       file: "content/about.json"
       fields:
-        - {label: "Message", name: message, widget: string}
+          - {label: Title, name: title, widget: string}
+          - {label: Intro, name: intro, widget: markdown}
+          - label: Locations
+            name: locations
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Address, name: address, widget: string}
