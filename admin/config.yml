@@ -11,7 +11,7 @@ collections:
   - label: "About"
     name: "about"
     files:
-    - label: "About"
+    - label: "Ab1out"
       name: "info"
       format: 'json'
       file: "content/about.json"
