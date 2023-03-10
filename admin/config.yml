@@ -11,7 +11,7 @@ collections:
   - label: "Landing page"
     name: "Landing page"
     files:
-    - label: "Landing page"
+    - label: "Page text"
       name: "info"
       format: 'json'
       file: "content/about.json"
