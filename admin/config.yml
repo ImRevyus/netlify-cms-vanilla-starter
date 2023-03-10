@@ -8,10 +8,10 @@ media_folder: "media"
 public_folder: "media"
 publish_mode: editorial_workflow
 collections:
-  - label: "Landing page"
-    name: "Landing page"
+  - label: "About"
+    name: "about"
     files:
-    - label: "Page text"
+    - label: "About"
       name: "info"
       format: 'json'
       file: "content/about.json"
