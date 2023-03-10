@@ -14,5 +14,5 @@ function render (container, message) {
   const nav = document.createElement('nav')
 
   app.appendChild(nav)
-  render(nav, `change this at the <a href="admin">admin</a>`)
+  render(nav, `Sign in to change this <a href="admin">Login</a>`)
 })()
