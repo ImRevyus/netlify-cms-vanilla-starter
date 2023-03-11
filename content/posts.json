@@ -1,0 +1,23 @@
+{
+    "posts": [
+      {
+        "title": "My first post",
+        "date": "2022-03-12",
+        "image": "/path/to/image.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec tincidunt velit. Sed efficitur vel velit quis aliquet."
+      },
+      {
+        "title": "My second post",
+        "date": "2022-03-14",
+        "image": "/path/to/image.jpg",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+      },
+      {
+        "title": "My third post",
+        "date": "2022-03-16",
+        "image": "/path/to/image.jpg",
+        "description": "In hac habitasse platea dictumst. Morbi non mi sit amet dolor fringilla blandit. Vestibulum venenatis libero ac quam vehicula."
+      }
+    ]
+  }
+  
